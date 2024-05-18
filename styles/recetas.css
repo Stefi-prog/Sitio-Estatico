@@ -1,0 +1,39 @@
+/* Estilos para el contenedor de recetas */
+#recipes-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Diseño de cuadrícula adaptable */
+    gap: 20px; /* Espacio entre las tarjetas */
+    padding: 20px;
+}
+
+.card-link{
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+.card-receta {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px var(--color-shadow);
+    background-color: var(--color-secundary);
+}
+
+.card-receta img {
+    width: 150px; 
+    height: 150px;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.details-recipe {
+    flex: 1;
+    color: var(--text-color);
+}
+
+.details-recipe h2 {
+    margin-bottom: 10px; 
+}
+
+

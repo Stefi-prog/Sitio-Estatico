@@ -1,0 +1,22 @@
+:root{
+    --color-primary: #f7f2ec;
+    --color-secundary:#fafafa;
+    --color-text: #000000;
+    --color-shadow: #0000001a;
+
+}
+
+body {
+    background-color: var(--color-primary);
+    color: var(--color-text);
+}
+#theme-button{
+    border-radius: 10px;
+    padding: 0.5em;
+    background-color:  #195e4b;
+    color: white;
+    border: none;
+    position: absolute;
+    border: solid 2px black ;
+    margin-left: 5%;
+}
